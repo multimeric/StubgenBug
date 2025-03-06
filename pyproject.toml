@@ -1,0 +1,19 @@
+[project]
+name = "tmp-dmnkkm8uuq"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Michael Milton", email = "michael.r.milton@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mypy>=1.15.0",
+]
+
+[project.scripts]
+tmp-dmnkkm8uuq = "tmp_dmnkkm8uuq:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
